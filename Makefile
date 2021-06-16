@@ -3,3 +3,6 @@ clean:
 
 all:
 	-make calculator
+
+run:
+	-./calculator
