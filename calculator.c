@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+int take_input();
 int multiply(int num1, int num2);
 int sum(int num1, int num2);
 int subtract(int num1, int num2);
@@ -8,6 +8,13 @@ int divide(int num1, int num2);
 
 int main() {
 	printf("Hello this is the calculator.\n");
+
+	take_input();	
+
+	return 0;
+}
+
+int take_input() {
 
 	int a, b;
 	char choice;
@@ -39,11 +46,9 @@ int main() {
 	default:
 		printf("Not an existing choice dumb shit");
 		break;
-	}	
-
-	/*printf("Sum: %d\n", a+b);*/
-
-	return 0;
+	}
+	
+	return 0;	
 }
 
 int multiply(int num1, int num2) {
@@ -66,7 +71,7 @@ int subtract(int num1, int num2) {
 
 int divide(int num1, int num2) {
 	int y;
-	y = num1 + num2;
+	y = num1 / num2;
 	return(y);
 }
 
