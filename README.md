@@ -6,9 +6,10 @@ Program should be able to take in strings like "5*5" and return 25.
 
 
 NEXT UP:
-- Look in to string splitting?
 - Need to validate input string to see they are valid ints and a valid char (+, -, /, *), and too much input etc.
 - Then, this string needs to be split into two ints and a char for the case: loop.
+- Should be able to work with floats
+- Perhaps keep a working number like with a regular calulator?
 
 
 LOG:
